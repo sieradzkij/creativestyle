@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Zadanie FrontEND</title>
+
+		<!-- <link rel="stylesheet/less" type="text/css" href="less/style.less" />
+		<script src="js/lib/less.min.js"></script> -->
+		<link rel="stylesheet" type="text/css" href="less/css/style.css" />
+	</head>
+	<body>
+		<section>
+			<div class="mainBox">
+				<div class="padding">
+					<h1>Take a look at our offer</h1>
+					<p>
+						If you are looking to ger your website, we will be happy to help you with that. Just pick one of the packages and submit the form.
+						We will respond in 48h.
+					</p>
+					<ul>
+						<li>
+							<div class="itemOffer radioOption">
+								<label for="usability"></label>
+								<span class="ico icon-usability"></span>
+								<h4>Website design</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<span class="price" data="1000">€ 1000</span>
+								<input id="usability" type="radio" name="options" checked="checked"/>
+							</div>
+						</li>
+						<li>
+							<div class="itemOffer radioOption">
+								<label for="redesign"></label>
+								<span class="ico icon-redesign"></span>
+								<h4>Basic CMS package</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<span class="price" data="2500">€ 2500</span>
+								<input id="redesign" type="radio" name="options"/>
+							</div>
+						</li>
+						<li>
+							<div class="itemOffer radioOption">
+								<label for="implementation"></label>
+								<span class="ico icon-implementation"></span>
+								<h4>Custom app development</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<span class="price" data="5000">€ 5000</span>
+								<input id="implementation" type="radio" name="options"/>
+							</div>
+						</li>
+						<li>
+							<div class="separator">&</div>
+						</li>
+						<li>
+							<div class="itemOffer checkboxOption">
+								<label for="security"></label>
+								<span class="ico icon-eye"></span>
+								<h4>Security audit</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<span class="price" data="1000">€ 1000</span>
+								<input id="security" type="checkbox" name=""/>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="leftForm">
+				<div class="padding">
+					<h3>Please fill the form details</h3>
+					<div id="form">
+						<div class="field">
+							<span class="ico icon-user"></span>
+							<input type="text" placeholder="First & last name">
+						</div>
+						<div class="field">
+							<span class="ico icon-email"></span>
+							<input type="text" placeholder="E-mail address">
+						</div>
+						<div class="field last">
+							<span class="ico icon-phone"></span>
+							<input type="text" placeholder="Phone number">
+						</div>
+						<div class="choosedOption">
+							<div class="option">
+								<span class="ico"></span>
+								<p class="name"></p>
+							</div>
+							<div class="option">
+								<div class="separator">&</div>
+								<span class="ico"></span>
+								<p class="name"></p>
+							</div>
+						</div>
+						<div class="totalPrice">
+							<p>estimated cost:</p>
+							<span>€ <span id="price">1000</span></span>
+						</div>
+						<a class="button">send request</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/core.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

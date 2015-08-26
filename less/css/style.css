@@ -1,0 +1,408 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+@font-face {
+  font-family: 'icomoon';
+  src: url('file:///C:/Users/Jakub/Desktop/index/fonts/icomoon.eot?chi7yq');
+  src: url('file:///C:/Users/Jakub/Desktop/index/fonts/icomoon.eot?#iefixchi7yq') format('embedded-opentype'), url('file:///C:/Users/Jakub/Desktop/index/fonts/icomoon.ttf?chi7yq') format('truetype'), url('file:///C:/Users/Jakub/Desktop/index/fonts/icomoon.woff?chi7yq') format('woff'), url('file:///C:/Users/Jakub/Desktop/index/fonts/icomoon.svg?chi7yq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-user:before {
+  content: "\e601";
+}
+.icon-email:before {
+  content: "\e602";
+}
+.icon-phone:before {
+  content: "\e603";
+}
+.icon-usability:before {
+  content: "\e604";
+}
+.icon-redesign:before {
+  content: "\e605";
+}
+.icon-implementation:before {
+  content: "\e606";
+}
+.icon-eye:before {
+  content: "\e600";
+}
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* This helps to make newer HTML5 elements behave like DIVs in older browers */
+article,
+aside,
+details,
+figcaption,
+figure,
+dialog,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+/* Line-height should always be unitless! */
+body {
+  line-height: 1.5;
+  background: white;
+}
+/* Tables still need 'cellspacing="0"' in the markup. */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+/* float:none prevents the span-x classes from breaking table-cell display */
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  float: none !important;
+}
+table,
+th,
+td {
+  vertical-align: middle;
+}
+ul {
+  list-style-type: none;
+}
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+/* Remove annoying border on linked images. */
+a img {
+  border: none;
+}
+/* Remember to define your own focus styles! */
+:focus {
+  outline: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: #f3f3f3;
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+a.button {
+  background: #329c5b;
+  display: block;
+  border: none;
+  color: #FFF;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 15px 0;
+  font-weight: 300;
+  text-align: center;
+  cursor: pointer;
+}
+a.button:hover {
+  opacity: 0.5;
+}
+section {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+div.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #b3b8bb;
+  padding: 0 10px;
+}
+div.mainBox {
+  display: table-cell;
+  height: 100%;
+  width: 80%;
+}
+div.mainBox div.padding {
+  padding: 98px 0 0 170px;
+}
+div.mainBox h1 {
+  color: #23262b;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+div.mainBox p {
+  color: #7f7f7f;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36px;
+  padding: 25px 0;
+  max-width: 825px;
+}
+div.mainBox ul {
+  margin: 40px 0 0;
+  overflow: hidden;
+}
+div.mainBox ul li {
+  float: left;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+div.mainBox ul li:first-child {
+  margin-left: 0;
+}
+div.mainBox div.separator {
+  height: 444px;
+  font-size: 48px;
+}
+div.mainBox div.itemOffer {
+  position: relative;
+  background: #FFF;
+  width: 218px;
+  height: 392px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px 20px;
+  border: 1px dashed #56a0d5;
+}
+div.mainBox div.itemOffer:hover {
+  background: transparent;
+}
+div.mainBox div.itemOffer.selected {
+  width: 220px;
+  height: 394px;
+  border: none;
+  background: #06152d;
+}
+div.mainBox div.itemOffer.selected span.ico {
+  color: #FFF;
+}
+div.mainBox div.itemOffer.selected h4 {
+  color: #FFF;
+}
+div.mainBox div.itemOffer.selected label {
+  cursor: default;
+}
+div.mainBox div.itemOffer span.ico {
+  display: inline-block;
+  color: #22252a;
+  font-size: 87px;
+  margin: 0 0 50px;
+}
+div.mainBox div.itemOffer span.price {
+  color: #56a0d5;
+  font-size: 24px;
+  font-weight: 700;
+}
+div.mainBox div.itemOffer span.price:after {
+  display: block;
+  clear: both;
+}
+div.mainBox div.itemOffer h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #23262b;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  min-height: 50px;
+  text-transform: uppercase;
+}
+div.mainBox div.itemOffer p {
+  color: #7f7f7f;
+  padding: 25px 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+}
+div.mainBox div.itemOffer label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+div.mainBox div.itemOffer input {
+  display: block;
+  margin: 5px auto;
+}
+div.leftForm {
+  display: table-cell;
+  height: 100%;
+  width: 20%;
+  background: #FFF;
+  min-width: 310px;
+  text-align: center;
+}
+div.leftForm h3 {
+  line-height: 30px;
+  margin: 0 auto;
+  color: #22252a;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 170px;
+}
+div.leftForm div.padding {
+  position: relative;
+  padding: 0 20px;
+}
+div.leftForm #form {
+  margin: 50px 0;
+}
+div.leftForm #form div.field {
+  position: relative;
+  border: 1px solid #ebebeb;
+  border-bottom: none;
+}
+div.leftForm #form div.field.last {
+  border: 1px solid #ebebeb;
+}
+div.leftForm #form div.field span.ico {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 20px;
+  color: #7f7f7f;
+  text-align: center;
+  width: 22px;
+}
+div.leftForm #form div.field span.ico.icon-email {
+  font-size: 17px;
+}
+div.leftForm #form div.field input {
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  color: #b3b8bb;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-indent: 45px;
+}
+div.leftForm #form div.choosedOption {
+  margin: 50px 0;
+  min-height: 230px;
+}
+div.leftForm #form div.choosedOption div.option {
+  display: none;
+}
+div.leftForm #form div.choosedOption span.ico {
+  color: #b3b8bb;
+  font-size: 45px;
+}
+div.leftForm #form div.choosedOption div.separator {
+  padding: 10px;
+  font-size: 40px;
+}
+div.leftForm #form div.choosedOption p {
+  color: #b3b8bb;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+div.leftForm #form div.totalPrice {
+  color: #329c5b;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+div.leftForm #form div.totalPrice p {
+  text-transform: uppercase;
+}
+div.leftForm #form div.totalPrice span {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 45px;
+}
